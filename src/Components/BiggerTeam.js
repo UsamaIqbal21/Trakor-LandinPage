@@ -10,19 +10,19 @@ function BiggerTeam() {
               <div className="flex flex-col items-center md:items-start justify-center gap-y-8 md:w-[600px]">
                 <div>
                   <div>
-                    <h3 className="text-white text-center md:text-start text-xl md:text-2xl lg:text-3xl font-roboto font-semibold leading-tight">
+                    <h3 className="text-white text-center md:text-start text-xl md:text-2xl lg:text-3xl font-roboto font-semibold leading-tight"  data-aos="fade-up">
                       Bigger team.
                     </h3>
                   </div>
                   <div>
-                    <h4 className="text-[#818CF8] text-center md:text-start md:text-2xl lg:text-3xl font-roboto font-bold text-xl leading-110">
+                    <h4 className="text-[#818CF8] text-center md:text-start md:text-2xl lg:text-3xl font-roboto font-bold text-xl leading-110"   data-aos="fade-up"data-aos-delay="100">
                       More time.
                     </h4>
                   </div>
                 </div>
 
                 <div className="md:pr-12">
-                  <p className="text-[#CBD5E1] text-center md:text-start  font-roboto text-base font-normal leading-140 ">
+                  <p className="text-[#CBD5E1] text-center md:text-start  font-roboto text-base font-normal leading-140 " data-aos="fade-up" data-aos-delay="200">
                     Quam quis orci turpis vulputate platea. Urna ipsum suscipit
                     nullam ipsum nam leo fringilla eget lorem. Sit vestibulum
                     phasellus integer et et diam malesuada. Sed tortor orci
@@ -33,14 +33,14 @@ function BiggerTeam() {
               </div>
               <div className="flex flex-col items-center justify-center gap-y-1 ">
                 <div className=" flex items-center justify-center gap-x-4 pl-6">
-                  <div>
+                  <div data-aos="fade-up" data-aos-delay="100">
                     <img
                       src={Images.team1}
                       alt=""
                       className="w-[172px] md:w-[200px] lg:w-[264px]"
                     />
                   </div>
-                  <div>
+                  <div data-aos="fade-up" data-aos-delay="200">
                     <img
                       src={Images.team2}
                       alt=""
@@ -49,14 +49,14 @@ function BiggerTeam() {
                   </div>
                 </div>
                 <div className=" flex items-center justify-center gap-x-4 pr-6">
-                  <div>
+                  <div data-aos="fade-up" data-aos-delay="300">
                     <img
                       src={Images.team3}
                       alt=""
                       className="w-[123px] md:w-[150px] lg:w-[207px]"
                     />
                   </div>
-                  <div>
+                  <div data-aos="fade-up"data-aos-delay="400">
                     <img
                       src={Images.team4}
                       alt=""

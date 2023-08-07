@@ -14,21 +14,21 @@ function Testimonials() {
           <div className="flex flex-col items-center justify-center space-y-6">
             <div className="flex items-center justify-center ">
               <div className=" ">
-                <h3 className="text-white text-center font-roboto text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-semibold leading-110">
+                <h3 className="text-white text-center font-roboto text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-semibold leading-110"  data-aos="fade-up">
                   Our partners. Our Friends.
                 </h3>
-                <h3 className="text-[#818CF8] text-center font-roboto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-110]">
+                <h3 className="text-[#818CF8] text-center font-roboto text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold leading-110]"  data-aos="fade-up" data-aos-delay="100">
                   They love us.
                 </h3>
               </div>
             </div>
             <div className="">
-              <p className="text-[#CBD5E1] text-center font-roboto text-sm md:text-base lg:text-lg xl:text-xl font-normal leading-140">
+              <p className="text-[#CBD5E1] text-center font-roboto text-sm md:text-base lg:text-lg xl:text-xl font-normal leading-140"  data-aos="fade-up" data-aos-delay="200">
                 Sem malesuada sed lectus id nunc mattis est eget tincidunt.
               </p>
             </div>
           </div>
-          <div className="py-24 lg:pl-12">
+          <div className="py-24 lg:pl-12"  data-aos="fade-up"  data-aos-delay="300">
             <style>
               {`
               .swiper-pagination {

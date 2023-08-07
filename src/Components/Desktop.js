@@ -7,12 +7,12 @@ function Desktop() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center justify-center">
               <div>
-                <h3 className="text-white text-center font-roboto font-semibold text-lg md:text-2xl lg:text-3xl xl:text-4xl leading-tight">
+                <h3 className="text-white text-center font-roboto font-semibold text-lg md:text-2xl lg:text-3xl xl:text-4xl leading-tight" data-aos="fade-up">
                   Diam quam tortor eget id.{" "}
                 </h3>
               </div>
               <div>
-                <h3 className="text-white text-center font-roboto font-semibold text-lg md:text-2xl lg:text-3xl xl:text-4xl leading-tight">
+                <h3 className="text-white text-center font-roboto font-semibold text-lg md:text-2xl lg:text-3xl xl:text-4xl leading-tight" data-aos="fade-up" data-aos-delay="100">
                   Aliquet lacus volutpat tristique sed diam.
                 </h3>
               </div>

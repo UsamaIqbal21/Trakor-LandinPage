@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./Components/Navbar";
 import Images from "./Assets/Images";
 import TrustedCompanies from "./Components/TrustedCompanies";
@@ -13,6 +15,9 @@ import Testimonials from "./Components/Testimonials";
 import AlwaysTogether from "./Components/AlwaysTogether";
 import Footer from "./Components/Footer";
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <section className="bg-[#0F172A]">
@@ -24,25 +29,25 @@ function App() {
                 <div className="flex flex-col items-center justify-center gap-y-8">
                   <div>
                     <div>
-                      <h5 className="text-[#818CF8] text-center text-xl font-roboto font-medium leading-tight">
+                      <h5 className="text-[#818CF8] text-center text-xl font-roboto font-medium leading-tight" data-aos="fade-up">
                         Team Progress Tracking Tool
                       </h5>
                     </div>
                     <div>
-                      <h3 className="text-white text-center text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-roboto font-extrabold leading-tight">
+                      <h3 className="text-white text-center text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-roboto font-extrabold leading-tight" data-aos="fade-up">
                         Track your team progress
                       </h3>
                     </div>
                   </div>
 
                   <div className="md:px-24 lg:px-48 xl:px-72 2xl:px-96">
-                    <p className="text-[#CBD5E1] text-center text-base font-roboto font-normal leading-relaxed ">
+                    <p className="text-[#CBD5E1] text-center text-base font-roboto font-normal leading-relaxed " data-aos="fade-up">
                       Ut posuere felis arcu tellus tempus in in ultricies.
                       Gravida id nibh ornare viverra. Ultrices faucibus neque
                       velit risus ac id lorem.
                     </p>
                   </div>
-                  <div className="flex items-center justify-center gap-x-2">
+                  <div className="flex items-center justify-center gap-x-2" data-aos="fade-up">
                     <div className="rounded-md border border-indigo-500 bg-indigo-600 w-[152px] md:w-[172px] py-1">
                       <h3 className="text-white text-center font-roboto text-base font-medium leading-snug tracking-tight">
                         Start for free
@@ -55,7 +60,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                   <img
                     src={Images.hero}
                     alt=""
